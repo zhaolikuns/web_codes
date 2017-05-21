@@ -1,0 +1,629 @@
+@charset "UTF-8";
+
+.wrapper{
+    background-color: #EBEBEB;
+}
+
+/*头部 */
+nav.header{
+    width:100%;
+    height: 1.106667rem;
+    background-color: #FD6699;
+    text-align: center;
+    padding-top: 0.32rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav.header img{
+    width:1.733333rem;
+    height:0.466667rem;
+}
+/*
+内容区域*/
+.content{
+    width:8.8rem;
+    height:auto;
+    margin: 0 auto;
+}
+.content .title{
+    font-family: "Microsoft yahei";
+    width: 3.84rem;
+    font-size:0.56rem;
+    color: #67696B;
+    text-align: center;
+    letter-spacing: 0.06rem;
+    margin: 0.866667rem auto 0.786667rem;
+}
+
+/*
+inputs*/
+.inputs{
+    width:100%;
+}
+.inputs form input.max-widths{
+    width: 8.773333rem;
+    height: 1.173333rem;
+    line-height:1.173333rem;
+    border:1px solid #67696B;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    font-family: "Microsoft yahei";
+    color: #67696B;
+    font-size:0.4rem;
+    text-indent:0.36rem;
+}
+.inputs form input.max-widths:nth-child(1),
+.inputs form input.max-widths:nth-child(2),
+.inputs form input.max-widths:nth-child(3){
+    margin-bottom:0.626667rem;
+}
+
+.yanzhengma{
+    position: relative;
+}
+.yanzhengma button{
+    display: block;
+    position: absolute;
+    right:0.946667rem;
+    top: 0.333333rem;
+    width:2.4rem;
+    height:0.57333333rem;
+    line-height:0.57333333rem;
+    background-color: #D5D5D5;
+    color: #67696B;
+    font-family: FZLTKHK--GBK1-0;
+    font-size:0.4rem;
+    border-radius:0.0533333rem;
+    z-index: 10;
+}
+
+.inputs form .passWords input.min-widths{
+    width:4rem;
+    height: 1.17333333rem;
+    border:1px solid #67696B;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    font-family: "Microsoft yahei";
+    color: #67696B;
+    font-size:0.4rem;
+    text-indent:0.36rem;
+}
+
+.inputs form .codes{
+    width:8.306667rem;
+    height: 0.61333333rem;
+    margin: 0.72rem auto 0;
+    font-family:"AdobeInvisFont";
+    font-size:0.24rem;
+    letter-spacing: 0.02rem;
+    color: #67696B;
+    line-height: 0.36rem;
+}
+
+/*提交按钮*/
+input.submits{
+    display: block;
+    width:100%;
+    height:1.2rem;
+    line-height: 1.2rem;
+    background-color: #02A1DC;
+    color: #fff;
+    font-family: "Microsoft yahei";
+    font-size:0.4rem;
+    margin-top:0.68rem;
+    letter-spacing:0.053333rem;
+}
+
+/*已有账号*/
+
+.save-submit{
+    display: block;
+   /* width:3.04rem;*/
+    height:0.48rem;
+    margin: 0.6rem auto 0;
+    line-height: 0.48rem;
+    color: #67696B;
+    text-align: center;
+    font-size:0.346667rem;
+}
+.save-submit .exist{
+    color: #c00;
+    font-size:0.346667rem;
+}
+
+.msgs1{
+    background:#E6E6E6;
+    color:#818080;
+}
+
+/*
+    webApp-02
+*/
+.content.webApp-02{
+    margin:2.06666rem auto 0;
+    width: 7.49333333rem;
+}
+/*webApp-02-title*/
+.content.webApp-02 .webApp-02-title{
+    font-size:0.56rem;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Microsoft yahei";
+    color: #7A7A7A;
+}
+/*webApp-02-con*/
+.content.webApp-02 .webApp-02-con{
+    text-align: center;
+    font-size: 0.28rem;
+    color: #7A7A7A;
+    margin-top: 0.32rem;
+    font-family: "Microsoft yahei";
+    letter-spacing: 0.106667rem;
+}
+
+.content.webApp-02 .selets{
+    width:100%;
+}
+.selets .webApp-02-selects{
+    width:100%;
+    margin-top: 0.37333333rem;
+}
+.selets .webApp-02-selects > p{
+    margin-bottom:0.133333rem;
+    color: #434649;
+    font-size:0.21333333rem;
+    height: 0.22666667rem;
+    line-height: 0.22666667rem;
+    text-indent: 0.066667rem;
+}
+.selets .webApp-02-selects .webApp-02-sells{
+    width:100%;
+    height:0.76rem;
+    border: 1px solid #67696B;
+    border-radius:4px;
+    background: #fff url("../img/select.png") no-repeat;
+    background-position: 99% center;
+    background-size:14px 14px;
+ }
+
+/*button*/
+.webApp-02-btns{
+    width:100%;
+    height: 0.7733333rem;
+    margin-top:0.466667rem;
+}
+.webApp-02-btns button{
+    width:2.48rem;
+    height: 0.7733333rem;
+    background-color: #2A7CBC;
+    -webkit-border-radius: 0.0533333333rem;
+    -moz-border-radius: 0.0533333333rem;
+    border-radius: 0.0533333333rem;
+    color: #fff;
+    font-size:0.4rem;
+    text-align: center;
+    line-height:0.7733333rem;
+    font-family: "FZLTXIHK--GBK1-0";
+}
+.webApp-02-btns span{
+    color: #434649;
+    margin-left:0.52rem;
+}
+
+/*
+    webApp-03
+*/
+.webApp-03-yes-no{
+    margin-top: 1.32rem;
+    font-size:0.213333rem;
+    color: #434649;
+    height: 0.22666667rem;
+    line-height: 0.22666667rem;
+    font-family: "Microsoft yahei";
+}
+.webApp-03-yes-no input{
+    vertical-align: bottom;
+    margin: 0 0.0666667rem -1px 0.33333333rem;
+    width: 0.2266667rem;
+    height: 0.2266667rem;
+}
+input#radio-yes{
+    margin-left:0.5333333rem;
+}
+
+.webApp-03-school{
+    width:3.5733333rem;
+}
+.webApp-03-school p,
+.webApp-03-school input{
+    width:100%;
+}
+.webApp-03-school p{
+    margin-bottom: 0.133333rem;
+    color: #434649;
+    font-size: 0.21333333rem;
+    text-indent: 0.066667rem;
+    height: 0.22666667rem;
+    line-height: 0.22666667rem;
+}
+.webApp-03-school input{
+    display: block;
+    height: 0.733333rem;
+    border: 1px solid #67696B;
+    border-radius: 4px;
+}
+
+/*
+webApp-04*/
+.webApp-02-selects{
+    width:100% ;
+}
+.webApp-02-selects .webApp-03-school.webApp-04{
+    width:100% !important;
+}
+input.webApp-03-width-all{
+    width:7.466667rem;
+}
+.webApp-03-school.webApp-04 select{
+    height: 0.733333rem;
+    width: 7.466667rem;
+    border: 1px solid #67696B;
+    border-radius: 4px;
+    background: #fff url("../img/select.png") no-repeat;
+    background-position: 99% center;
+    background-size:14px 14px;
+}
+
+
+/*
+WebApp-04
+*/
+
+/*上传文件*/
+.input-files-style{
+    position: relative;
+    display: block;
+    width:1.3466666rem;
+    height:0.56rem;
+    line-height: 0.56rem;
+    background-color: #2875B4;
+    -webkit-border-radius:0.0533333rem;
+    -moz-border-radius:0.0533333rem;
+    border-radius:0.0533333rem;
+    cursor: pointer;
+    font-size: 0.2133rem;
+    color: #fff;
+    text-align: center;
+}
+.input-files{
+    display: block;
+    width:100%;
+    height:100%;
+    opacity:0;
+    position: absolute;
+    left:0px;
+    top:0px;
+    z-index: 3;
+    cursor: pointer;
+}
+/*end 上传文件*/
+
+/*fixed*/
+.webApp-04-fixed-radio{
+    position: absolute;
+    width: 7.9466667rem;
+    top: 2.866667rem;
+    left:50%;
+    margin-left:-3.9733333rem;
+}
+.webApp-04-fixed-radio label{
+    text-align: left;
+    display: block;
+    width:50%;
+    color: #555;
+    font-size:0.28rem;
+    font-family: "Microsoft yahei";
+}
+.webApp-04-fixed-radio label input{
+    margin-left:0.11rem;
+    vertical-align: middle;
+    margin-bottom:1px;
+    width: 0.2266667rem;
+    height: 0.2266667rem;
+}
+
+/*tabs-contents*/
+.tabs-contents{
+    width:100%;
+    background-color: #EBEBEB;
+    margin:1.546666rem auto 0;
+}
+.tabs-01{
+    width:8.77333333rem ;
+    height: 3.0533333rem;
+    border: 1px solid #B6B6B6;
+    background-color: #F5F5F5;
+}
+.tabs-01 .tab-01-con{
+    width: 7.9466667rem;
+    margin: 1.44rem auto 0;
+    height:1.3733333rem;
+}
+.phoneImg{
+    width: 1.413333333rem;
+    height:1.413333333rem;
+    border:1px solid #2A7CBC;
+    border-radius: 50%;
+    background: url("../img/touxiang.jpg") no-repeat;
+    background-size: cover;
+}
+.phoneImgOther{
+    height:100%;
+    padding-top:0.213333333rem;
+    width:calc(100% - 0.28rem - 1.413333333rem - 2px);
+}
+.phoneImgOther .phoneImgOther-title{
+    font-family: "FZLTXHK--GBK1-0";
+    color: #434649;
+    font-size: 0.2133333rem;
+    letter-spacing: 0.02666667rem;
+}
+.phoneImgOther .phoneImgOther-con{
+    height:0.56rem;
+    width:100%;
+    margin-top:0.1966667rem;
+}
+.phoneImgOther .phoneImgOther-con .input-files-style-radio{
+    width:calc(100% - 0.72rem - 1.3466666rem);
+    height:0.56rem;
+    font-size:0.21333333rem;
+    line-height: 0.56rem;
+    color: #434649;
+    font-family: "FZLTXHK--GBK1-0";
+}
+.phoneImgOther .phoneImgOther-con .input-files-style-radio label input{
+    vertical-align: middle;
+    margin:0 0.13333333rem 1px;
+    font-size:0.21333333rem;
+    font-family: "FZLTXHK--GBK1-0";
+}
+.margin-right-10{
+    margin-right:0.13333333rem;
+}
+
+/*
+tabs-01-con*/
+.tabs-01-con{
+    width:100%;
+    margin-top: 0.89333333rem;
+    background-color: #EBEBEB;
+}
+.full-width-style{
+    width:100%;
+}
+.full-width-style select{
+    background: #fff url("../img/select.png") no-repeat;
+    background-position: 96% center;
+    background-size:14px 14px;
+}
+.full-width-style p.full-width-style-title{
+    font-family: "Microsoft yahei";
+    color: #434649;
+    font-size:0.21333333rem;
+    margin-bottom:0.13333333rem;
+    height: 0.22666667rem;
+    line-height: 0.22666667rem;
+}
+.full-width-style select.full-width-style-select{
+    width:2.76rem;
+    height: 0.76rem;
+    border:1px solid #B6B6B6;
+    border-radius: 4px;
+}
+.margin-19{
+    margin: 0 0.2533333333rem;
+}
+.margin-top-62{
+    margin-top: 0.45333333rem;
+}
+
+.full-width-style .half-small-width{
+    width:2.76rem;
+}
+.full-width-style .half-small-width p.half-width-title{
+    font-family: "Microsoft yahei";
+    color: #434649;
+    font-size:0.21333333rem;
+    margin-bottom:0.13333333rem;
+}
+.full-width-style .half-small-width .half-small-width-select{
+    width:2.76rem;
+    height: 0.76rem;
+    border:1px solid #B6B6B6;
+}
+
+/*
+提交按钮*/
+.tabs-contents-submit{
+    width:100%;
+    height: 0.76rem;
+    line-height: 0.76rem;
+    margin-top: 0.68rem;
+    margin-bottom: 0.68rem;
+}
+.tabs-contents-submit button{
+    height:100%;
+    width:3.146666667rem;
+    background-color: #2A7CBC;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #fff;
+    font-size:0.4rem;
+    line-height: 0.76rem;
+    font-family: "FZLTXIHK--GBK1-0";
+}
+.tabs-contents-submit span{
+    font-family: "Microsoft yahei";
+    color: #434649;
+    font-size:0.21333333333rem;
+    margin-left: 0.48rem;
+}
+
+/*
+第二个切换数据*/
+.tabs-02-style{
+    width:100%;
+    margin-top: 3.9466666667rem;
+}
+
+.tabs-02-style form .full-width-style select{
+    background: #fff url("../img/select.png") no-repeat;
+    background-position: 96% center;
+    background-size:14px 14px;
+}
+.margin-top-32{
+    margin-top: 0.426667rem;
+}
+.full-width-style textarea{
+    height: 1.586666rem;
+    width: 8.773333rem;
+    border:1px solid #B6B6B6;
+    border-radius: 4px;
+    resize: none;
+}
+.full-width-style .half-small-width.half-small-width-310{
+    width:4.16rem;
+}
+.full-width-style .half-small-width.half-small-width-310 p{
+    width: 100%;
+}
+.full-width-style .half-small-width.half-small-width-310 input{
+    width: 4.1333333rem;
+    border-radius: 4px;
+}
+
+.full-width-style .full-width-style-input{
+    height: 0.76rem;
+    border: 1px solid #B6B6B6;
+    width: 8.773333333rem;
+    border-radius: 4px;
+}
+
+.show{
+    display: block;
+}
+.none{
+    display: none;
+}
+
+
+/*
+自我介绍*/
+.content form .self-introduction{
+    width: 100%;
+}
+.content form .self-introduction p{
+    width:100%;
+    height: 0.32rem;
+    line-height: 0.32rem;
+    font-size: 0.32rem;
+    font-family: "Microsoft yahei";
+    color: #67696B;
+    margin-bottom: 0.146667rem;
+}
+.content form .self-introduction .self-introduction-textarea{
+    border: 1px solid #B6B6B6;
+    height: 1.506667rem;
+    width: 8.7733333rem;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    resize: none;
+}
+.margin-top-71{
+    margin-top: 0.946667rem;
+}
+.margin-top-22{
+    margin-top: 0.2933333rem;
+}
+.margin-bottom-22{
+    margin-bottom: 0.2933333rem;
+}
+.margin-top-37{
+    margin-top: 0.4933333rem;
+}
+
+.common-05{
+    width: 100%;
+    height: 0.546667rem;
+    line-height: 0.546667rem;
+    font-family: "Microsoft yahei";
+    color: #67696B;
+    font-size: 0.32rem;
+}
+
+.want-find-title{
+    width: 1.8rem;
+    height: 0.546667rem;
+}
+.want-find-title em{
+    display: inline-block;
+    height: 1px;
+    width: 0.62rem;
+}
+.radio-woman{
+    width:2.6rem;
+    text-align: center;
+    height: 0.546667rem;
+}
+.to{
+    width: 1.8rem;
+    height: 0.546667rem;
+    text-align: center;
+    display: block;
+
+}
+.radio-man{
+   width:2.6rem;
+    text-align: center;
+    height: 0.546667rem;
+}
+.radio-man input,
+.radio-woman input{
+    width: 0.226667rem;
+    height: 0.226667rem;
+    vertical-align: middle;
+    margin-bottom: 0px;
+}
+
+.common-05 .common-start,
+.common-05 .common-end{
+    width:2.6rem;
+    height: 0.52rem;
+    border:1px solid #B6B6B6;
+    border-radius: 4px;
+    background: #fff url("../img/select.png") no-repeat;
+    background-position: 96% center;
+    background-size:14px 14px;
+    text-indent: 0.9rem;
+    color: #67696B;
+}
+
+.tabs-contents-submit a{
+    display: inline-block;
+    text-align: center;
+    height:100%;
+    width:3.146666667rem;
+    background-color: #2A7CBC;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #fff;
+    font-size:0.4rem;
+    line-height: 0.76rem;
+    font-family: "FZLTXIHK--GBK1-0";
+}

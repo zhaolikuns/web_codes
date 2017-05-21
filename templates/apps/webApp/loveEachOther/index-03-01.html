@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>webApp-03-01</title>
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="assets/css/web-common.css">
+    <link rel="stylesheet" href="assets/css/web-pages.css">
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+</head>
+<body>
+    <!--wrapper-->
+    <div class="wrapper">
+        <!-- Header Start-->
+        <nav class="header">
+             <img src="assets/img/header-logo.png" alt="">
+        </nav>
+        <!--end  Header Start-->
+
+        <!--content-->
+        <section class="content clearFix webApp-02">
+
+            <div class="webApp-02-title">我已工作</div>
+
+            <!--selects-->
+            <div class="selets">
+                <form action="" id="webApp-04-formLogin">
+                    <!--是否是学生-->
+                    <div class="webApp-03-yes-no">
+                        <span>您是学生 *</span>
+
+                        <input type="radio" name="radio1" id="radio-yes" >
+                        <label for="radio-yes" class="radio-yes">是</label>
+
+                        <input type="radio" name="radio1" id="radio-no" checked>
+                        <label for="radio-no" class="radio-no">否</label>
+                    </div>
+                    <!--End 是否是学生-->
+
+                    <div class="webApp-02-selects clearFix">
+                        <!--职位-->
+                        <div class="webApp-03-school webApp-04">
+                            <p>职位&nbsp;*</p>
+                            <input type="text" name="" class="webApp-03-width-all" />
+                        </div>
+                    </div>
+
+                    <div class="webApp-02-selects clearFix ">
+                        <!--公司-->
+                        <div class="webApp-03-school webApp-04">
+                            <p>公司&nbsp;*</p>
+                            <input type="text" name="" class="webApp-03-width-all" />
+                        </div>
+                    </div>
+
+                    <div class="webApp-02-selects clearFix ">
+                        <!--所属行业-->
+                        <div class="webApp-03-school webApp-04">
+                            <p>所属行业&nbsp;*</p>
+                            <select name="" id="" class="webApp-04-sells"></select>
+                        </div>
+                    </div>
+
+                    <!--button-->
+                    <div class="webApp-02-btns">
+                        <button type="button">下一步</button>
+                        <span>* 必填项</span>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!--End content-->
+    </div>
+    <!--End wrapper-->
+
+    <script src="assets/plugins/jquery/jquery.js"></script>
+    <script src="assets/js/web-valid-message.js"></script>
+    <script src="assets/js/web-reg.js"></script>
+</body>
+</html>
